@@ -1,0 +1,11 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: '757576'
+  secondary: '939598'   
+  secondary-dark: 333
+  muted: 777
+
+# Font Families
+font:
+  primary: 'Futura'
+  secondary: 'Lato'

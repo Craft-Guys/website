@@ -1,0 +1,44 @@
+url: https://craftguystradingco.com
+baseurl: 
+
+# Site settings
+title: The Craft Guys Trading Company
+email: hello@craftguystradingco.com
+description: "We Know Craft"
+
+
+# Team names, titles and social links
+people:
+- name: Steiner Roberts
+  pic: steiner
+
+- name: Mike Shemeld
+  pic: mike
+
+- name: Jason Cooper
+  pic: jason
+
+- name: Laura Eft
+  pic: laura
+
+- name: Brittani Robinson
+  pic: brittani
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: http://instagram.com/questions/tagged/jekyll
+  - title: twitter
+    url:
+  - title: facebook
+    url:
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Main Street
+  - line: Marysville, OH 43040
+
+# Build settings
+markdown: kramdown
+permalink: pretty
