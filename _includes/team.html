@@ -7,13 +7,19 @@
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
-            <div class="row">
-                {% for member in site.people %}
+            {% for member in site.people %}
+                {% if forloop.index == 1 or forloop.index == 4 %}
+                    {% if forloop.index > 1 %}
+                        </div>                    
+                    {% endif %}
+                    <div class="row">
+                {% endif %}
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
+                        <p class="text-muted large">{{ member.position }}</p>
+                        <p class="text-muted">{{ member.bio }}</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
                             <li>
@@ -22,16 +28,9 @@
                                 </a>
                             </li>
                             {% endfor %}
-
                         </ul>
                     </div>
                 </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted"></p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </section>

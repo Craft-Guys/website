@@ -10,7 +10,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Futura Light";
+    font-family: "Futura";
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -657,7 +657,7 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
