@@ -682,8 +682,24 @@ aside.clients img {
 }
 
 .logos {
-    max-height: 170px;
+    max-height: 95px;
     margin-top: 10px;
+    padding: 1px;
+}
+
+@media(min-width:476px) {
+    .logos {
+        max-height: 130px;
+        margin-top: 10px;
+        padding: 10px;
+}
+}
+
+@media(min-width:768px) {
+    .logos {
+        max-height: 170px;
+        margin-top: 10px;
+    }
 }
 
 section#contact {
